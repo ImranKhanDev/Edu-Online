@@ -1,0 +1,99 @@
+/* Top header */
+.top-header {
+  background: red;
+}
+@media only screen and (max-width: 990px) {
+  .top-header {
+    display: none;
+  }
+}
+
+/* banner */
+/* topbox */
+.topbox {
+  margin-top: -110px;
+  background: #f0fbfc;
+}
+.card-1 {
+  background: #416799c4;
+  border-radius: none;
+  border: 0;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+}
+.card-1:hover {
+  background: #6895cfc4;
+}
+.card-2 {
+  background: #42d8d8c4;
+  border-radius: none;
+
+  border: 0;
+}
+.card-2:hover {
+  background: #78f8f8fa;
+}
+.card-3 {
+  background: #53a4d3f6;
+  border-radius: none;
+
+  border: 0;
+}
+.card-3:hover {
+  background: #4e819ecc;
+}
+.card-4 {
+  background: #325196f6;
+  border-radius: none;
+
+  border: 0;
+}
+.card-4:hover {
+  background: #697fadf6;
+}
+.about-container {
+  background: #f0fbfc;
+  padding: 120px;
+}
+.right-img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+}
+
+.right-animation {
+  content: "";
+  position: absolute;
+  right: 14rem;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url("../../img/right-bg-animation.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 40%;
+  z-index: -1;
+  animation-name: bgshape;
+  -webkit-animation: bgshape 4s infinite;
+  animation: bgshape 4s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+.btn-view {
+  padding: 15px 20px;
+  border-radius: 10px;
+  background: #329696f6;
+  color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
