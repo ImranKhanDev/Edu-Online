@@ -13,6 +13,7 @@
 .topbox {
   margin-top: -110px;
   background: #f0fbfc;
+ 
 }
 .card-1 {
   background: #416799c4;
@@ -97,3 +98,5 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+/* total */

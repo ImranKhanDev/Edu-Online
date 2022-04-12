@@ -1,0 +1,17 @@
+.total {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  width: auto;
+  text-align: center;
+}
+
+.total .col h2 {
+  font-size:3.5rem;
+  font-weight: 600;
+  color: #ee8c1c;
+}
+.total .col span {
+  font-size: 20px;
+  font-weight: 500;
+}

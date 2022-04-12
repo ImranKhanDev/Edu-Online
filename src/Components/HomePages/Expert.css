@@ -1,0 +1,15 @@
+.expert-fluid {
+  background: #f0fbfc;
+  padding: 50px 0px;
+}
+
+.expert .text:after {
+  content: "dashed dashed";
+}
+.team_member {
+  text-align: center;
+}
+.team_member img {
+  height: 340px;
+  width: auto;
+}

@@ -8,11 +8,11 @@ const Topbox = () => {
   return (
     <div className="topbox ">
       <Container>
-        <Row className="d-flex justify-content-center align-items-center">
+        <Row className="d-flex justify-content-center align-items-center text-center text-uppercase">
           <Card className="card-1" style={{ width: "16rem", height: "20rem" }}>
             <Card.Body>
               <Card.Title>
-                <BsPerson />
+                <BsPerson size={90} />
               </Card.Title>
               <Card.Title>Primary Card Title</Card.Title>
               <Card.Text>
@@ -24,7 +24,7 @@ const Topbox = () => {
           <Card className="card-2" style={{ width: "16rem", height: "20rem" }}>
             <Card.Body>
               <Card.Title>
-                <VscBook />
+                <VscBook size={90} />
               </Card.Title>
               <Card.Title>Primary Card Title</Card.Title>
               <Card.Text>
@@ -36,7 +36,7 @@ const Topbox = () => {
           <Card className="card-3" style={{ width: "16rem", height: "20rem" }}>
             <Card.Body>
               <Card.Title>
-                <BiWorld />
+                <BiWorld size={90} />
               </Card.Title>
               <Card.Title>Primary Card Title</Card.Title>
               <Card.Text>
@@ -48,7 +48,7 @@ const Topbox = () => {
           <Card className="card-4" style={{ width: "16rem", height: "20rem" }}>
             <Card.Body>
               <Card.Title>
-                <RiBookletLine />
+                <RiBookletLine size={90} />
               </Card.Title>
               <Card.Title>Primary Card Title</Card.Title>
               <Card.Text>

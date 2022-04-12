@@ -1,0 +1,20 @@
+.categories {
+  background: #f0fbfc;
+}
+
+.categories h4::after {
+  content: "";
+  border: 3px solid grey;
+  width: 40%;
+}
+.categories h4::before {
+  content: "";
+  border: 3px solid grey;
+  width: 40%;
+}
+
+.categories p {
+  color: grey;
+  font-weight: normal;
+  margin-top: 10px;
+}

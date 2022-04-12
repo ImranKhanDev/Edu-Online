@@ -9,7 +9,10 @@ const About = () => {
           <Col sm={12} md={8} lg={6}>
             <div className="about-content">
               <h4 style={{ color: "#EE8C1C" }}>ABOUT EduOnline</h4>
-              <h1>LEARN SOMETHING NEW, AND GROW YOUR SKILL</h1>
+              <h1>
+                LEARN SOMETHING NEW, AND GROW YOUR{" "}
+                <span style={{ color: "#EE8C1C" }}>SKILL</span>{" "}
+              </h1>
               <p>-------</p>
 
               <p className="para-2">
