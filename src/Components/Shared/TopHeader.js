@@ -6,11 +6,18 @@ import { GoLocation } from "react-icons/go";
 import { FaFacebookF } from "react-icons/fa";
 import Styles from "../../Components/MainCSS/Styles.css";
 
+import "./TopHeader.css";
 const TopHeader = () => {
   return (
-    <Navbar className="top-header" collapseOnSelect expand="lg" variant="dark">
+    <Navbar
+      className="top-header"
+      style={{ background: "#06BBCC" }}
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+    >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand className="brand" href="#home">
           <span>
             <BsTelephone />
           </span>
@@ -19,13 +26,13 @@ const TopHeader = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">
+            <Nav.Link className="brand" href="#features">
               <span>
                 <FiMail />
               </span>
               <span>info@eduonline.com</span>
             </Nav.Link>
-            <Nav.Link href="#pricing">
+            <Nav.Link className="brand" href="#pricing">
               <span>
                 <GoLocation />
               </span>
@@ -34,16 +41,16 @@ const TopHeader = () => {
           </Nav>
           <Nav>
             <Nav.Link href="#deets">
-              <FaFacebookF />
+              <FaFacebookF style={{ color: "white" }} />
             </Nav.Link>
             <Nav.Link href="#deets">
-              <BsInstagram />
+              <BsInstagram style={{ color: "white" }} />
             </Nav.Link>
             <Nav.Link href="#deets">
-              <BsInstagram />
+              <BsInstagram style={{ color: "white" }} />
             </Nav.Link>
             <Nav.Link href="#deets">
-              <BsTwitter />
+              <BsTwitter style={{ color: "white" }} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -19,8 +19,7 @@ const Reviews = () => {
           {" "}
           <h2>Customers Reviews </h2>
           <h2>
-            What People
-            <span style={{ color: "#06BBCC" }}>SAY</span>{" "}
+            What People <span style={{ color: "#06BBCC" }}>SAY</span>
           </h2>
           <p className="text-grey">
             //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -56,8 +55,8 @@ const Reviews = () => {
                         }}
                         alt=""
                       />
-                      <h4>Adam Chase</h4>
-                      <h4 style={{}}>Graphic Designer</h4>
+                      <h4>joe</h4>
+                      <h4 style={{ color: "#EE8C1C" }}>Graphic Designer</h4>
                     </div>
                     <div className="quote">
                       <FaQuoteRight size={60} />
@@ -92,7 +91,7 @@ const Reviews = () => {
                         }}
                         alt=""
                       />
-                      <h4>Adam Chase</h4>
+                      <h4>joe</h4>
                       <h4 style={{ color: "#EE8C1C" }}>CEO & FOUNDER</h4>
                     </div>
                     <div className="quote">
@@ -107,7 +106,7 @@ const Reviews = () => {
             <Carousel activeIndex={index} onSelect={handleSelect}>
               <Carousel.Item>
                 <div>
-                  <span>
+                  <span style={{ color: "#EE8C1C" }}>
                     <AiFillStar />
                     <AiFillStar />
                     <AiFillStar />
@@ -132,8 +131,8 @@ const Reviews = () => {
                         }}
                         alt=""
                       />
-                      <h4>Adam Chase</h4>
-                      <h4>Graphic Designer</h4>
+                      <h4>Joe Don</h4>
+                      <h4 style={{ color: "#EE8C1C" }}>CEO & FOUNDER</h4>
                     </div>
                     <div className="quote">
                       <FaQuoteRight size={60} />
@@ -142,9 +141,8 @@ const Reviews = () => {
                 </div>
               </Carousel.Item>
               <Carousel.Item>
-                <h1>this is carousel</h1>
                 <div>
-                  <span>
+                  <span style={{ color: "#EE8C1C" }}>
                     <AiFillStar />
                     <AiFillStar />
                     <AiFillStar />
@@ -169,8 +167,8 @@ const Reviews = () => {
                         }}
                         alt=""
                       />
-                      <h4>Adam Chase</h4>
-                      <h4>Graphic Designer</h4>
+                      <h4>Joe </h4>
+                      <h4 style={{ color: "#EE8C1C" }}>Brand Designer</h4>
                     </div>
                     <div className="quote">
                       <FaQuoteRight size={60} />

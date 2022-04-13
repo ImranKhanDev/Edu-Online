@@ -6,7 +6,7 @@ import { BiWorld } from "react-icons/bi";
 import { RiBookletLine } from "react-icons/ri";
 const Topbox = () => {
   return (
-    <div className="topbox ">
+    <div className="topbox " >
       <Container>
         <Row className="d-flex justify-content-center align-items-center text-center text-uppercase">
           <Card className="card-1" style={{ width: "16rem", height: "20rem" }}>

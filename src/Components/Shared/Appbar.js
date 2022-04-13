@@ -14,18 +14,12 @@ const Appbar = () => {
         <Navbar.Brand href="#home">EduOnline</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto uppercase">
+          <Nav className="ms-auto text-uppercase">
             <Nav.Link href="#features">Home</Nav.Link>
             <Nav.Link href="#pricing">Courses</Nav.Link>
             <Nav.Link href="#pricing">Events</Nav.Link>
             <Nav.Link href="#pricing">blog</Nav.Link>
-            <Nav.Link href="#pricing">contac us</Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
+            <Nav.Link href="#pricing">contact us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
