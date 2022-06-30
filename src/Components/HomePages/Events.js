@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, CardGroup } from "react-bootstrap";
-import "./Events.css";
+
 import events1 from "../../img/event-1.jpg";
 import events2 from "../../img/event-2.jpg";
 import events3 from "../../img/event-3.jpg";
@@ -8,7 +8,7 @@ import { AiOutlineStar, AiFillStar } from "react-icons/ai";
 
 const Events = () => {
   return (
-    <div className="events-fluid">
+    <div className="events-fluid ">
       <Container>
         <div className="text-center text-uppercase pricing py-5">
           {" "}
@@ -30,7 +30,7 @@ const Events = () => {
                 <Card.Body>
                   <Card.Title>TED TALKS AT UCF COLLEGE OF EDUCATION</Card.Title>
                   <Card.Text>
-                    <div className="d-flex justify-content-start align-items-center">
+                    <div className="">
                       <AiOutlineStar size={20} style={{ color: "#80d0d7" }} />
                       <span>30 july</span>
                     </div>
@@ -50,7 +50,7 @@ const Events = () => {
                 <Card.Body>
                   <Card.Title>IMPORTANCES OF RESEARCH SEMINAR 2021</Card.Title>
                   <Card.Text>
-                    <div className="d-flex justify-content-start align-items-center">
+                    <div className="">
                       <AiOutlineStar size={20} style={{ color: "#80d0d7" }} />
                       <span>30 july</span>
                     </div>

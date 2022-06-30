@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Appbar = () => {
   return (
@@ -11,15 +12,60 @@ const Appbar = () => {
       variant="dark"
     >
       <Container>
-        <Navbar.Brand href="#home">EduOnline</Navbar.Brand>
+        <Navbar.Brand to="/home" style={{cursor:"pointer"}}>EduOnline</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto text-uppercase">
-            <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#pricing">Courses</Nav.Link>
-            <Nav.Link href="#pricing">Events</Nav.Link>
-            <Nav.Link href="#pricing">blog</Nav.Link>
-            <Nav.Link href="#pricing">contact us</Nav.Link>
+            <Link
+              style={{
+                textDecoration: "none",
+                marginRight: "10px",
+                color: "white",
+              }}
+              to="/"
+            >
+              Home
+            </Link>
+            <Link
+              style={{
+                textDecoration: "none",
+                marginRight: "10px",
+                color: "white",
+              }}
+              to="/courses"
+            >
+              Courses
+            </Link>
+            <Link
+              style={{
+                textDecoration: "none",
+                marginRight: "10px",
+                color: "white",
+              }}
+              to="/about"
+            >
+              About
+            </Link>
+            <Link
+              style={{
+                textDecoration: "none",
+                marginRight: "10px",
+                color: "white",
+              }}
+              to="/blogs"
+            >
+              blog
+            </Link>
+            <Link
+              style={{
+                textDecoration: "none",
+                marginRight: "10px",
+                color: "white",
+              }}
+              to="/contact"
+            >
+              contact us
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

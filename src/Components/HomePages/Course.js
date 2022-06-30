@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Container, Row, Col } from "react-bootstrap";
-import "./Courses.css";
+
 import course1 from "../../img/course-1.jpg";
 import course2 from "../../img/course-2.jpg";
 import course3 from "../../img/course-3.jpg";
@@ -89,9 +89,7 @@ const Courses = () => {
               <div className="card ">
                 <img src={course1} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">
-                    BUILD BRAND INTO MARKETING: TACKLING NEW MARKETING
-                  </h5>
+                  <h5 className="card-title">BUILD BRAND INTO MARKETING</h5>
                   <p className="card-text d-flex justify-content-between align-items-center">
                     <div> 21 Reviews</div>
                     <div style={{ color: "#EE8C1C" }}>
@@ -192,7 +190,7 @@ const Courses = () => {
                 <img src={course4} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">
-                    GROW YOUR BUSINESS BY MASTERED IN SOME TECHNIQUE
+                    GROW YOUR BUSINESS BY MASTERED .
                   </h5>
                   <p className="card-text d-flex justify-content-between align-items-center">
                     <div> 21 Reviews</div>

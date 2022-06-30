@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Carousel, Col, Container, Row } from "react-bootstrap";
 import { AiOutlineStar, AiFillStar } from "react-icons/ai";
 import { FaQuoteRight } from "react-icons/fa";
-import "./Reviews.css";
+
 import review1 from "../../img/review-1.jpg";
 import review2 from "../../img/review-2.jpg";
 

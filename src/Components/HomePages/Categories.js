@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import "./Categories.css";
+
 import { AiOutlineBarChart } from "react-icons/ai";
 import { BsCameraVideoFill } from "react-icons/bs";
 import { FcSettings } from "react-icons/fc";

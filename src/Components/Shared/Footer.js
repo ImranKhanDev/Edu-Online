@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import "./Footer.css";
+
 const Footer = () => {
   return (
     <div

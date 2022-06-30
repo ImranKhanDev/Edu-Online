@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import img1 from "../../img/about-right.jpg";
-const About = () => {
+const Skill = () => {
   return (
-    <div className="about-container">
+    <div className="skill-container ">
       <Container>
         <Row className="d-flex justify-content-between align-items-center">
           <Col sm={12} md={8} lg={6}>
@@ -25,10 +25,10 @@ const About = () => {
                 communication dependencies and the messy rat’s nest of email,
                 calls, texts, wikis, and apps you currently have.
               </p>
-              <button className="btn btn btn-view">View Course</button>
+              <button className="btn btn btn-success">View Course</button>
             </div>
           </Col>
-          <div className="right-animation"></div>
+          
           <Col sm={12} md={4} lg={4}>
             <div className="about-right">
               <img src={img1} className="right-img" alt="about-image" />
@@ -40,4 +40,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Skill;

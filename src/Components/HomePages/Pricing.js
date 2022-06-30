@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
-import "./Pricing.css";
+
 import { BsServer } from "react-icons/bs";
 import { FiSettings } from "react-icons/fi";
 import { FaRocket } from "react-icons/fa";

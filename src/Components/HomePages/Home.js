@@ -1,9 +1,9 @@
 import React from "react";
-import About from "./About";
+import Skill from "./Skill";
 import Banner from "./Banner";
 import Blog from "./Blog";
 import Categories from "./Categories";
-import Courses from "./Courses";
+import Courses from "./Course";
 import Events from "./Events";
 import Expert from "./Expert";
 import Newsletter from "./Newsletter";
@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <Banner />
       <Topbox />
-      <About />
+      <Skill />
       <Total />
       <Categories />
       <Courses />
@@ -26,7 +26,7 @@ const Home = () => {
       <Reviews />
       <Events />
       <Blog />
-      <Newsletter/>
+      <Newsletter />
     </>
   );
 };

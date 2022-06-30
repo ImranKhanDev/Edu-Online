@@ -4,9 +4,7 @@ import { BsTelephone, BsInstagram, BsTwitter } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 import { FaFacebookF } from "react-icons/fa";
-import Styles from "../../Components/MainCSS/Styles.css";
 
-import "./TopHeader.css";
 const TopHeader = () => {
   return (
     <Navbar

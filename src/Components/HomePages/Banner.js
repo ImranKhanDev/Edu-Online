@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Button, ButtonGroup, Container } from "react-bootstrap";
 import slider from "../../img/slider-1.jpg";
 import slider2 from "../../img/slider-2.jpg";
-import "./Banner.css";
+
 const Banner = () => {
   return (
     <div className="banner-fluid mb-5" style={{ textTransform: "uppercase" }}>
@@ -28,15 +28,8 @@ const Banner = () => {
                   quae temporibus?
                 </p>
 
-                <div className="btn">
-                  {" "}
-                  <Button
-                    className="btn1 
-                  "
-                  >
-                    View Source
-                  </Button>
-                  <Button className="btn2">get started</Button>
+                <div className="banner-btn">
+                  <Button className="b1">Get Started</Button>
                 </div>
               </div>
             </div>
@@ -56,10 +49,9 @@ const Banner = () => {
                   quae temporibus?
                 </p>
 
-                <div className="btn">
+                <div className="banner-btn">
                   {" "}
-                  <Button className="btn1">View Source</Button>
-                  <Button className="btn2">get started</Button>
+                  <Button className="b1">Get Started</Button>
                 </div>
               </div>
             </div>

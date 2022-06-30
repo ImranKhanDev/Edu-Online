@@ -1,0 +1,15 @@
+website name : https://preview.themeforest.net/item/epathsala-online-education-template/full_screen_preview/34494881
+
+****** ekhane aro kichu kaj baki ahce ******* 
+
+1. responsive er kaj ta baki ache 
+
+1.5 --> animate.css er kaj baki ache.
+
+2. functionality full baki ache.
+
+3.single route korte hobe.
+
+
+
+

@@ -13,7 +13,7 @@ const Newsletter = () => {
             interesting things every week{" "}
           </p>
         </div>
-        <div className=" text-center mx-auto">
+        <div className="text-center ">
           <input
             type="text"
             placeholder="YOUR MAIL"
@@ -21,18 +21,17 @@ const Newsletter = () => {
             style={{ width: "50%", height: "50px" }}
           />
           <button
-            className=""
+            className="shadow  bg-body"
             style={{
-              height: "50px",
+              height: "52px",
               width: "150px",
 
               background: "#06BBCC",
             }}
           >
             <span>
-              <MdMessage size={20} />
-            </span>{" "}
-            <span>SUBSCRIBE</span>
+              <MdMessage size={20} /> SUBSCRIBE
+            </span>
           </button>
         </div>
       </Container>

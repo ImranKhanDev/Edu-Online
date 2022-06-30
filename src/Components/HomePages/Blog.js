@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardGroup, Col, Container, Row } from "react-bootstrap";
-import "./Blog.css";
+
 import { AiOutlineStar } from "react-icons/ai";
 import blogbanner1 from "../../img/blog-banner-1.jpg";
 import blogbanner2 from "../../img/blog-banner-2.jpg";
