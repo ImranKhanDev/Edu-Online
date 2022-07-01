@@ -24,396 +24,400 @@ import { AiOutlineSkype, AiOutlineMail } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 const Blogs = () => {
   return (
-    <div className="container ">
-      <div className="blog-banner">
-        <div
-          className="content text-center my-auto
+    <div className="blog-container mb-4">
+      <div className="blog-item">
+        <div className="container ">
+          <div className="blog-banner content-blog">
+            <div
+              className="content text-center my-auto
           "
-        >
-          <h1 className="text-white pt-4">Our Blogs</h1>
-          <div>
-            {" "}
-            <Link
-              to="/"
-              className="home"
-              style={{ textDecoration: "none", color: "white" }}
             >
-              Home{" "}
-            </Link>
-            <span style={{ color: "white" }}>{""}> Blogs</span>
-          </div>
-        </div>
-      </div>
-
-      <div className="row mt-4 py-5">
-        <div className="col-md-9 ">
-          <h1>NEWS & BLOG</h1>
-          <div className="blog-content">
-            <div className="item">
-              <img src={blog1} alt="" style={{ width: 390, height: 250 }} />
-              <div style={{}}>
-                <div>
-                  <span>18 JUNE</span>
-                </div>
-                <div className="text-start" style={{ width: "90%" }}>
-                  <h6 style={{ marginRight: "25px" }}>
-                    Those Other College Expenses You Aren't Thinking About
-                  </h6>
-                  <p>
-                    Thousands of teenagers across the UK will have school
-                    lessons in mindfulness in an experiment designed to see if
-                    it can protect against mental illness.
-                  </p>
-                  <p>Posted in : Hobbies</p>
-                  <p>Tags : college, eduonline</p>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <img src={blog2} alt="" style={{ width: 390, height: 250 }} />
-              <div className="">
-                <div>
-                  <span>18 JUNE</span>
-                </div>
-                <div className="text-start" style={{ width: "90%" }}>
-                  <h6 style={{ marginRight: "25px" }}>
-                    Those Other College Expenses You Aren't Thinking About
-                  </h6>
-                  <p>
-                    Thousands of teenagers across the UK will have school
-                    lessons in mindfulness in an experiment designed to see if
-                    it can protect against mental illness.
-                  </p>
-                  <p>Posted in : Hobbies</p>
-                  <p>Tags : college, eduonline</p>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <img src={blog3} alt="" style={{ width: 390, height: 250 }} />
-              <div className="">
-                <div>
-                  <span>18 JUNE</span>
-                </div>
-                <div className="text-start" style={{ width: "90%" }}>
-                  <h6 style={{ marginRight: "25px" }}>
-                    Those Other College Expenses You Aren't Thinking About
-                  </h6>
-                  <p>
-                    Thousands of teenagers across the UK will have school
-                    lessons in mindfulness in an experiment designed to see if
-                    it can protect against mental illness.
-                  </p>
-                  <p>Posted in : Hobbies</p>
-                  <p>Tags : college, eduonline</p>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <img src={blog4} alt="" style={{ width: 390, height: 250 }} />
-              <div className="">
-                <div>
-                  <span>18 JUNE</span>
-                </div>
-                <div className="text-start" style={{ width: "90%" }}>
-                  <h6 style={{ marginRight: "25px" }}>
-                    Those Other College Expenses You Aren't Thinking About
-                  </h6>
-                  <p>
-                    Thousands of teenagers across the UK will have school
-                    lessons in mindfulness in an experiment designed to see if
-                    it can protect against mental illness.
-                  </p>
-                  <p>Posted in : Hobbies</p>
-                  <p>Tags : college, eduonline</p>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <img src={blog5} alt="" style={{ width: 390, height: 250 }} />
-              <div className="">
-                <div>
-                  <span>18 JUNE</span>
-                </div>
-                <div className="text-start" style={{ width: "90%" }}>
-                  <h6 style={{ marginRight: "25px" }}>
-                    Those Other College Expenses You Aren't Thinking About
-                  </h6>
-                  <p>
-                    Thousands of teenagers across the UK will have school
-                    lessons in mindfulness in an experiment designed to see if
-                    it can protect against mental illness.
-                  </p>
-                  <p>Posted in : Hobbies</p>
-                  <p>Tags : college, eduonline</p>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <img src={blog6} alt="" style={{ width: 390, height: 250 }} />
-              <div className="">
-                <div>
-                  <span>18 JUNE</span>
-                </div>
-                <div className="text-start" style={{ width: "90%" }}>
-                  <h6 style={{ marginRight: "25px" }}>
-                    Those Other College Expenses You Aren't Thinking About
-                  </h6>
-                  <p>
-                    Thousands of teenagers across the UK will have school
-                    lessons in mindfulness in an experiment designed to see if
-                    it can protect against mental illness.
-                  </p>
-                  <p>Posted in : Hobbies</p>
-                  <p>Tags : college, eduonline</p>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <img src={blog7} alt="" style={{ width: 390, height: 250 }} />
-              <div className="">
-                <div>
-                  <span>18 JUNE</span>
-                </div>
-                <div className="text-start" style={{ width: "90%" }}>
-                  <h6 style={{ marginRight: "25px" }}>
-                    Those Other College Expenses You Aren't Thinking About
-                  </h6>
-                  <p>
-                    Thousands of teenagers across the UK will have school
-                    lessons in mindfulness in an experiment designed to see if
-                    it can protect against mental illness.
-                  </p>
-                  <p>Posted in : Hobbies</p>
-                  <p>Tags : college, eduonline</p>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <img src={blog3} alt="" style={{ width: 390, height: 250 }} />
-              <div className="">
-                <div>
-                  <span>18 JUNE</span>
-                </div>
-                <div className="text-start" style={{ width: "90%" }}>
-                  <h6 style={{ marginRight: "25px" }}>
-                    Those Other College Expenses You Aren't Thinking About
-                  </h6>
-                  <p>
-                    Thousands of teenagers across the UK will have school
-                    lessons in mindfulness in an experiment designed to see if
-                    it can protect against mental illness.
-                  </p>
-                  <p>Posted in : Hobbies</p>
-                  <p>Tags : college, eduonline</p>
-                </div>
+              <h1 className="text-white pt-4">Our Blogs</h1>
+              <div>
+                {" "}
+                <Link
+                  to="/"
+                  className="home"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  Home{" "}
+                </Link>
+                <span style={{ color: "white" }}>{""}> Blogs</span>
               </div>
             </div>
           </div>
-        </div>
-        <div className="col-md-3 ">
-          <p>RECENT POSTS</p>
 
-          <div className="content d-flex justify-content-around align-items-center">
-            <img
-              src={blog1}
-              alt=""
-              style={{ width: 120, height: 150, marginRight: 15 }}
-            />
-            <div>
+          <div className="row mt-5 py-5">
+            <div className="col-md-9 ">
+              <h1>NEWS & BLOG</h1>
+              <div className="blog-content">
+                <div className="item">
+                  <img src={blog1} alt="" style={{ width: 390, height: 250 }} />
+                  <div style={{}}>
+                    <div>
+                      <span>18 JUNE</span>
+                    </div>
+                    <div className="text-start" style={{ width: "90%" }}>
+                      <h6 style={{ marginRight: "25px" }}>
+                        Those Other College Expenses You Aren't Thinking About
+                      </h6>
+                      <p>
+                        Thousands of teenagers across the UK will have school
+                        lessons in mindfulness in an experiment designed to see
+                        if it can protect against mental illness.
+                      </p>
+                      <p>Posted in : Hobbies</p>
+                      <p>Tags : college, eduonline</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <img src={blog2} alt="" style={{ width: 390, height: 250 }} />
+                  <div className="">
+                    <div>
+                      <span>18 JUNE</span>
+                    </div>
+                    <div className="text-start" style={{ width: "90%" }}>
+                      <h6 style={{ marginRight: "25px" }}>
+                        Those Other College Expenses You Aren't Thinking About
+                      </h6>
+                      <p>
+                        Thousands of teenagers across the UK will have school
+                        lessons in mindfulness in an experiment designed to see
+                        if it can protect against mental illness.
+                      </p>
+                      <p>Posted in : Hobbies</p>
+                      <p>Tags : college, eduonline</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <img src={blog3} alt="" style={{ width: 390, height: 250 }} />
+                  <div className="">
+                    <div>
+                      <span>18 JUNE</span>
+                    </div>
+                    <div className="text-start" style={{ width: "90%" }}>
+                      <h6 style={{ marginRight: "25px" }}>
+                        Those Other College Expenses You Aren't Thinking About
+                      </h6>
+                      <p>
+                        Thousands of teenagers across the UK will have school
+                        lessons in mindfulness in an experiment designed to see
+                        if it can protect against mental illness.
+                      </p>
+                      <p>Posted in : Hobbies</p>
+                      <p>Tags : college, eduonline</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <img src={blog4} alt="" style={{ width: 390, height: 250 }} />
+                  <div className="">
+                    <div>
+                      <span>18 JUNE</span>
+                    </div>
+                    <div className="text-start" style={{ width: "90%" }}>
+                      <h6 style={{ marginRight: "25px" }}>
+                        Those Other College Expenses You Aren't Thinking About
+                      </h6>
+                      <p>
+                        Thousands of teenagers across the UK will have school
+                        lessons in mindfulness in an experiment designed to see
+                        if it can protect against mental illness.
+                      </p>
+                      <p>Posted in : Hobbies</p>
+                      <p>Tags : college, eduonline</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <img src={blog5} alt="" style={{ width: 390, height: 250 }} />
+                  <div className="">
+                    <div>
+                      <span>18 JUNE</span>
+                    </div>
+                    <div className="text-start" style={{ width: "90%" }}>
+                      <h6 style={{ marginRight: "25px" }}>
+                        Those Other College Expenses You Aren't Thinking About
+                      </h6>
+                      <p>
+                        Thousands of teenagers across the UK will have school
+                        lessons in mindfulness in an experiment designed to see
+                        if it can protect against mental illness.
+                      </p>
+                      <p>Posted in : Hobbies</p>
+                      <p>Tags : college, eduonline</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <img src={blog6} alt="" style={{ width: 390, height: 250 }} />
+                  <div className="">
+                    <div>
+                      <span>18 JUNE</span>
+                    </div>
+                    <div className="text-start" style={{ width: "90%" }}>
+                      <h6 style={{ marginRight: "25px" }}>
+                        Those Other College Expenses You Aren't Thinking About
+                      </h6>
+                      <p>
+                        Thousands of teenagers across the UK will have school
+                        lessons in mindfulness in an experiment designed to see
+                        if it can protect against mental illness.
+                      </p>
+                      <p>Posted in : Hobbies</p>
+                      <p>Tags : college, eduonline</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <img src={blog7} alt="" style={{ width: 390, height: 250 }} />
+                  <div className="">
+                    <div>
+                      <span>18 JUNE</span>
+                    </div>
+                    <div className="text-start" style={{ width: "90%" }}>
+                      <h6 style={{ marginRight: "25px" }}>
+                        Those Other College Expenses You Aren't Thinking About
+                      </h6>
+                      <p>
+                        Thousands of teenagers across the UK will have school
+                        lessons in mindfulness in an experiment designed to see
+                        if it can protect against mental illness.
+                      </p>
+                      <p>Posted in : Hobbies</p>
+                      <p>Tags : college, eduonline</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <img src={blog3} alt="" style={{ width: 390, height: 250 }} />
+                  <div className="">
+                    <div>
+                      <span>18 JUNE</span>
+                    </div>
+                    <div className="text-start" style={{ width: "90%" }}>
+                      <h6 style={{ marginRight: "25px" }}>
+                        Those Other College Expenses You Aren't Thinking About
+                      </h6>
+                      <p>
+                        Thousands of teenagers across the UK will have school
+                        lessons in mindfulness in an experiment designed to see
+                        if it can protect against mental illness.
+                      </p>
+                      <p>Posted in : Hobbies</p>
+                      <p>Tags : college, eduonline</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 ">
+              <p>RECENT POSTS</p>
+
+              <div className="content d-flex justify-content-around align-items-center">
+                <img
+                  src={blog1}
+                  alt=""
+                  style={{ width: 120, height: 150, marginRight: 15 }}
+                />
+                <div>
+                  <p>
+                    <strong>
+                      New Chicago school budget relies on state pension
+                    </strong>
+                  </p>
+                  <p>May 18, 2016</p>
+                </div>
+              </div>
+              <div className="content d-flex justify-content-around align-items-center">
+                <img
+                  src={blog3}
+                  alt=""
+                  style={{ width: 120, height: 150, marginRight: 15 }}
+                />
+                <div>
+                  <p>
+                    <strong>
+                      New Chicago school budget relies on state pension
+                    </strong>
+                  </p>
+                  <p>May 18, 2016</p>
+                </div>
+              </div>
+              <div className="content d-flex justify-content-around align-items-center">
+                <img
+                  src={blog4}
+                  alt=""
+                  style={{ width: 120, height: 150, marginRight: 15 }}
+                />
+                <div>
+                  <p>
+                    <strong>
+                      New Chicago school budget relies on state pension
+                    </strong>
+                  </p>
+                  <p>May 18, 2016</p>
+                </div>
+              </div>
+              <h5>BROWSE BY TEACHER</h5>
               <p>
-                <strong>
-                  New Chicago school budget relies on state pension
-                </strong>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque,
+                nemo.
               </p>
-              <p>May 18, 2016</p>
-            </div>
-          </div>
-          <div className="content d-flex justify-content-around align-items-center">
-            <img
-              src={blog3}
-              alt=""
-              style={{ width: 120, height: 150, marginRight: 15 }}
-            />
-            <div>
-              <p>
-                <strong>
-                  New Chicago school budget relies on state pension
-                </strong>
-              </p>
-              <p>May 18, 2016</p>
-            </div>
-          </div>
-          <div className="content d-flex justify-content-around align-items-center">
-            <img
-              src={blog4}
-              alt=""
-              style={{ width: 120, height: 150, marginRight: 15 }}
-            />
-            <div>
-              <p>
-                <strong>
-                  New Chicago school budget relies on state pension
-                </strong>
-              </p>
-              <p>May 18, 2016</p>
-            </div>
-          </div>
-          <h5>BROWSE BY TEACHER</h5>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque,
-            nemo.
-          </p>
-          <hr />
-          <div className="web-teacher">
-            <div className="content-item  d-flex justify-content-between align-items-center">
-              <img src={te1} alt="" style={{ marginRight: "25px" }} />
-              <div>
-                <p>LOREN SAMUEL</p>
-                <p>FULL STACK ENGINEER</p>
-                <p className="d-flex justify-content-between align-items-center">
-                  <span>
-                    <BsFacebook size={15} />
-                  </span>
-                  <span>
-                    <FiLinkedin size={15} />
-                  </span>
-                  <span>
-                    <BsTwitter size={15} />
-                  </span>
-                  <span>
-                    <BsYoutube size={15} />
-                  </span>
-                </p>
+              <hr />
+              <div className="web-teacher">
+                <div className="content-item  d-flex justify-content-between align-items-center">
+                  <img src={te1} alt="" style={{ marginRight: "25px" }} />
+                  <div>
+                    <p>LOREN SAMUEL</p>
+                    <p>FULL STACK ENGINEER</p>
+                    <p className="d-flex justify-content-between align-items-center">
+                      <span>
+                        <BsFacebook size={15} />
+                      </span>
+                      <span>
+                        <FiLinkedin size={15} />
+                      </span>
+                      <span>
+                        <BsTwitter size={15} />
+                      </span>
+                      <span>
+                        <BsYoutube size={15} />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div className="content-item  d-flex justify-content-between align-items-center">
+                  <img src={te2} alt="" style={{ marginRight: "25px" }} />
+                  <div>
+                    <p>LARA CRSOH</p>
+                    <p>BACKEND ENGINEER</p>
+                    <p className="d-flex justify-content-between align-items-center">
+                      <span>
+                        <BsFacebook size={15} />
+                      </span>
+                      <span>
+                        <FiLinkedin size={15} />
+                      </span>
+                      <span>
+                        <BsTwitter size={15} />
+                      </span>
+                      <span>
+                        <BsYoutube size={15} />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div className="content-item d-flex justify-content-between align-items-center">
+                  <img src={te3} alt="" style={{ marginRight: "25px" }} />
+                  <div>
+                    <p>JAMES WATSON</p>
+                    <p>MERN STACK ENGINEER</p>
+                    <p className="d-flex justify-content-between align-items-center">
+                      <span>
+                        <BsFacebook size={15} />
+                      </span>
+                      <span>
+                        <FiLinkedin size={15} />
+                      </span>
+                      <span>
+                        <BsTwitter size={15} />
+                      </span>
+                      <span>
+                        <BsYoutube size={15} />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <hr />
               </div>
-            </div>
-            <hr />
-            <div className="content-item  d-flex justify-content-between align-items-center">
-              <img src={te2} alt="" style={{ marginRight: "25px" }} />
-              <div>
-                <p>LARA CRSOH</p>
-                <p>BACKEND ENGINEER</p>
-                <p className="d-flex justify-content-between align-items-center">
-                  <span>
-                    <BsFacebook size={15} />
-                  </span>
-                  <span>
-                    <FiLinkedin size={15} />
-                  </span>
-                  <span>
-                    <BsTwitter size={15} />
-                  </span>
-                  <span>
-                    <BsYoutube size={15} />
-                  </span>
-                </p>
-              </div>
-            </div>
-            <hr />
-            <div className="content-item d-flex justify-content-between align-items-center">
-              <img src={te3} alt="" style={{ marginRight: "25px" }} />
-              <div>
-                <p>JAMES WATSON</p>
-                <p>MERN STACK ENGINEER</p>
-                <p className="d-flex justify-content-between align-items-center">
-                  <span>
-                    <BsFacebook size={15} />
-                  </span>
-                  <span>
-                    <FiLinkedin size={15} />
-                  </span>
-                  <span>
-                    <BsTwitter size={15} />
-                  </span>
-                  <span>
-                    <BsYoutube size={15} />
-                  </span>
-                </p>
-              </div>
-            </div>
-            <hr />
-          </div>
 
-          {/* featured */}
-          <h5>Featured Courses</h5>
+              {/* featured */}
+              <h5>Featured Courses</h5>
 
-          <hr />
-          <div className="programming">
-            <div className="content-item  d-flex justify-content-between align-items-center">
-              <img src={prog1} alt="" style={{ marginRight: "25px" }} />
-              <div>
-                <p>JavaScript Programming for Newbee</p>
-                <p>Sarah John</p>
-                <p className="d-flex justify-content-between align-items-center">
-                  <a className="btn" href="/">
-                    $170
-                  </a>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                </p>
+              <hr />
+              <div className="programming">
+                <div className="content-item  d-flex justify-content-between align-items-center">
+                  <img src={prog1} alt="" style={{ marginRight: "25px" }} />
+                  <div>
+                    <p>JavaScript Programming for Newbee</p>
+                    <p>Sarah John</p>
+                    <p className="d-flex justify-content-between align-items-center">
+                      <a className="btn" href="/">
+                        $170
+                      </a>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div className="content-item  d-flex justify-content-between align-items-center">
+                  <img src={prog2} alt="" style={{ marginRight: "25px" }} />
+                  <div>
+                    <p>JavaScript Programming for Newbee</p>
+                    <p>Sarah John</p>
+                    <p className="d-flex justify-content-between align-items-center">
+                      <a className="btn" href="/">
+                        $170
+                      </a>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div className="content-item d-flex justify-content-between align-items-center">
+                  <img src={prog3} alt="" style={{ marginRight: "25px" }} />
+                  <div>
+                    <p>JavaScript Programming for Newbee</p>
+                    <p>Sarah John</p>
+                    <p className="d-flex justify-content-between align-items-center">
+                      <a className="btn" href="/">
+                        $170
+                      </a>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                      <span>
+                        <AiFillStar style={{ color: "yellow" }} size={15} />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <hr />
               </div>
             </div>
-            <hr />
-            <div className="content-item  d-flex justify-content-between align-items-center">
-              <img src={prog2} alt="" style={{ marginRight: "25px" }} />
-              <div>
-                <p>JavaScript Programming for Newbee</p>
-                <p>Sarah John</p>
-                <p className="d-flex justify-content-between align-items-center">
-                  <a className="btn" href="/">
-                    $170
-                  </a>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                </p>
-              </div>
-            </div>
-            <hr />
-            <div className="content-item d-flex justify-content-between align-items-center">
-              <img src={prog3} alt="" style={{ marginRight: "25px" }} />
-              <div>
-                <p>JavaScript Programming for Newbee</p>
-                <p>Sarah John</p>
-                <p className="d-flex justify-content-between align-items-center">
-                  <a className="btn" href="/">
-                    $170
-                  </a>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                  <span>
-                    <AiFillStar style={{ color: "yellow" }} size={15} />
-                  </span>
-                </p>
-              </div>
-            </div>
-            <hr />
           </div>
         </div>
       </div>

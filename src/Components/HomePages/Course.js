@@ -10,6 +10,7 @@ import course6 from "../../img/course-6.jpg";
 import { AiOutlineStar, AiFillStar } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Courses = () => {
   return (
@@ -26,7 +27,7 @@ const Courses = () => {
             </p>
           </div>
           <div>
-            <Button>Read More</Button>
+            <Link to="/blogs"><Button>Read More</Button></Link>
           </div>
         </div>
         <span>
