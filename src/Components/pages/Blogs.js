@@ -24,7 +24,7 @@ import { AiOutlineSkype, AiOutlineMail } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 const Blogs = () => {
   return (
-    <div className="blog-container mb-4">
+    <div className="blog-container mb-4" style={{background:"#000",color:"white"}}>
       <div className="blog-item">
         <div className="container ">
           <div className="blog-banner content-blog">

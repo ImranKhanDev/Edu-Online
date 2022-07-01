@@ -52,7 +52,7 @@ const Blog = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do
                       </p>
-                      <Link to="/">Read More</Link>
+                      <Link to="/blogs">Read More</Link>
                     </div>
                   </Card.Text>
                 </Card.Body>
@@ -80,7 +80,7 @@ const Blog = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do
                           </p>
-                          <Link to="/">Read More</Link>
+                          <Link to="/blogs">Read More</Link>
                         </div>
                       </Card.Text>
                     </div>
@@ -110,7 +110,7 @@ const Blog = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do
                           </p>
-                          <Link to="/">Read More</Link>
+                          <Link to="/blogs">Read More</Link>
                         </div>
                       </Card.Text>
                     </div>

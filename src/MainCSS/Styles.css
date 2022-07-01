@@ -257,14 +257,14 @@
 }
 
 /* blog pages */
-.blog-container {
+/* .blog-container {
   background-image: url("../img/about-banner.jpg");
   background-repeat: no-repeat;
   height: 280px;
   width: 100%;
   background-size: cover;
   margin-bottom: 60px;
-}
+} */
 .blog-banner {
 }
 .blog-content {
